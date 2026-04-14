@@ -10,13 +10,16 @@
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav ul {
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
-    gap: 5px;
+   margin-right: 50px;
 }
 nav ul a {
     text-decoration: none;
@@ -25,7 +28,20 @@ nav ul a {
     font-weight: 800;
     font-size: 45px;
 }
-/* share style here.... */
+/* share style here............................................... */
 .text_primary{
     color: #FD6E0A;
+}
+.text_2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px ;
+    border-color: #FD6E0A;
+    cursor: pointer;
 }
