@@ -1,3 +1,13 @@
+/* Google font code here */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 nav{
     display: flex;
 }
@@ -10,4 +20,12 @@ nav li{
 }
 nav ul a {
     text-decoration: none;
+}
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* share style here.... */
+.text_primary{
+    color: #FD6E0A;
 }
