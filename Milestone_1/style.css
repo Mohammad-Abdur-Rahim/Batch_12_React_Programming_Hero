@@ -66,6 +66,9 @@ nav ul a {
   border-color: #fd6e0a;
   cursor: pointer;
 }
+.text-center{
+  text-align: center;
+}
 /* banner styles  */
 .banner_h4 {
   font-size: 45px;
@@ -107,4 +110,15 @@ font-size: 15px;
 }
 .item-description{
   font-weight: bold;
+}
+.skills-box{
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 rgb(0, 0,0,0.6);
+  border-radius:10px;
+ margin-top: 20px;
 }
