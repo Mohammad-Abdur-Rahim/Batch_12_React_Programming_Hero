@@ -122,3 +122,18 @@ font-size: 15px;
   border-radius:10px;
  margin-top: 20px;
 }
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+.experience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.experience-description,.experience-sub-title{
+  color: #757575;
+}
+.resume-btn{
+  margin: 40px 0;
+}
